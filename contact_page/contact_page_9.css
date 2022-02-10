@@ -1,0 +1,107 @@
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+
+.contact_page_9 .heading-contact-page {
+    color: hsl(var(--color-secondary-dark));
+}
+
+.contact-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.contact-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.contact-title h2::before, .contact-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: hsl(var(--color-secondary));
+    display: inline-block;
+}
+
+.contact_page_9 .contact-about h3 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contact_page_9 .social-links {
+    padding-bottom: 20px;
+}
+
+.contact_page_9 .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: transparent;
+    color: hsl(var(--color-secondary-dark));
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid hsl(var(--color-secondary-dark));
+}
+
+.contact_page_9 .text-white-contact-page {
+    color: hsl(var(--color-white));
+}
+
+.contact_page_9 .social-links a:hover {
+    background: linear-gradient(45deg, hsl(var(--color-primary) / 70%) 0%, hsl(var(--color-secondary) / 100%) 100%);
+    color: hsl(var(--color-white));
+}
+
+.contact_page_9 .info i {
+    font-size: 32px;
+    color: hsl(var(--color-secondary-dark));
+    float: left;
+    line-height: 1;
+}
+
+.contact_page_9 .info p {
+    padding: 0 0 10px 42px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.contact_page_9 .php-email-form input, .contact_page_9 .php-email-form textarea {
+    border: 0;
+    border-bottom: 2px solid hsl(var(--color-white));
+    background: #1e3f8514;
+    font-size: 14px;
+    border-radius: 10px;
+    border-radius: 10px!important;
+    padding: 19px;
+}
+
+.contact_page_9 .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+.contact_page_9 .php-email-form button[type="submit"] {
+    background: transparent;
+    border: 0;
+    padding: 8px 25px;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-size: 14px;
+    border: 2px solid hsl(var(--color-secondary));
+    color: hsl(var(--color-secondary-dark))!important;
+}
+
+.contact_page_9 .php-email-form button[type="submit"]:hover {
+    transform: scale(1.05);
+    background: hsl(var(--color-primary-dark) / 100%);
+    color: hsl(var(--color-white))!important;
+    border-radius: 6px;
+    border: 2px solid hsl(var(--color-secondary-dark));
+}

@@ -1,0 +1,55 @@
+
+main.inner_pages_custom {
+    padding: 60PX 0;
+}
+
+.how_to_play_page .image {
+    background-size: cover;
+    min-height: 400px;
+}
+
+.how_to_play_page .content {
+    padding: 30px 0;
+}
+
+.how_to_play_page .content .icon-box {
+    margin-top: 25px;
+}
+.how_to_play_page .content .icon-box i {
+    font-size: 40px;
+    float: left;
+    
+}
+.how_to_play_page .content .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 10px 60px;
+    color: hsl(var(--color-secondary-dark));
+}
+
+.how_to_play_page .content .icon-box p {
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+.how_to_play_page .text-second-color {
+    color:  hsl(var(--color-primary-dark));
+}
+
+.how_to_play_page .text-second-color-icon {
+    color:  hsl(var(--color-secondary-dark));
+}
+
+.how-play-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.how-play-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.how-play-title h2::before, .how-play-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background:hsl(var(--color-secondary));
+    display: inline-block;
+}

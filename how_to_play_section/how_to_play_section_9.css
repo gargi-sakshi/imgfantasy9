@@ -1,0 +1,69 @@
+.how-to-play .icon-box {
+    margin-bottom: 20px;
+    padding: 50px 40px;
+    border-radius: 20px;
+    background: hsl(var(--color-white));
+    box-shadow: 0px 2px 15px rgb(94 154 87 / 43%);
+    transition: 0.5s;
+}
+
+.how-to-play .icon-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 15px rgb(167 63 181 / 88%);
+}
+.how-to-play .icon-box i {
+    float: left;
+    color: hsl(var(--color-white));
+    font-size: 33px;
+    border-radius: 50px;
+    border: 2px solid hsl(var(--color-primary-dark));
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    background: linear-gradient(45deg, hsl(var(--color-primary) / 100%) 0%, hsl(var(--color-secondary) / 100%) 100%);
+    padding-top: 18px;
+}
+.how-to-play .icon-box h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.how-to-play .icon-box p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.how-to-play h2 {
+    color: hsl(var(--color-white));
+    text-shadow: 2px 2px hsl(var(--color-primary-dark));
+}
+
+.how-to-play {
+    padding: 60px 0px;
+    border-bottom: 1px solid hsl(var(--color-white));
+    background: linear-gradient(45deg, hsl(var(--color-primary) / 60%) 0%, hsl(var(--color-secondary) / 100%) 100%), url(how_to_play_9/cta-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+@keyframes move {
+    from { top: 0; left: 0; }
+    to   { top: 100px; left: 100px; }
+  }
+
+  .move {
+    animation: move 10s steps(10) infinite alternate;
+  }
+
+  .how-to-play .heading-text-color {
+    color: hsl(var(--color-primary-dark));
+  }
+
+  .how-to-play .white-text-color {
+    color: hsl(var(--color-white));
+  }

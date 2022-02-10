@@ -1,0 +1,47 @@
+
+.download-section {
+    padding: 60px 0;
+    border-bottom: 1px solid hsl(var(--color-white));
+    background: linear-gradient(45deg, hsl(var(--color-primary) / 30%) 0%, hsl(var(--color-secondary) / 100%) 100%), url(get_app_section_9/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.download-section .text-white-download {
+    color: hsl(var(--color-white));
+}
+
+
+.get-started-btn-download {
+    margin-left: -2px;
+    font-weight: 600;
+    color: hsl(var(--color-white));
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.5s;
+    font-size: 14px;
+    display: inline-block;
+    border: 2px solid hsl(var(--color-primary-dark));
+    background: linear-gradient(45deg, hsl(var(--color-primary) / 100%) 0%, hsl(var(--color-secondary) / 100%) 100%);
+}
+.get-started-btn-download:hover {
+        border-color: hsl(var(--color-primary-dark));
+        border-radius: 6px;
+        background: hsl(var(--color-primary-dark));
+        color: hsl(var(--color-white))!important;
+        border: 2px solid hsl(var(--color-white));
+        transform: scale(1.05);
+}
+
+.download-section h1{
+    color: hsl(var(--color-white));
+    text-shadow: 3px 3px hsl(var(--color-primary-dark));
+}
+
+.download-section .download-text-color{
+    color: hsl(var(--color-primary-dark));
+}
+
